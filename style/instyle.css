@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#hero{
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+position: relative;
+width: 800px;
+top: 110px;
+left: 500px;
+box-shadow: 5px 5px 3px 2px yellow;
+}
+
+
+#seat{
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+   top: 250px;
+   left: 750px;
+   width: 160px;
+   padding: 10px;
+   background-color: rgb(81, 117, 201);
+  box-shadow: 3px 2px 2px blue;
+   &:hover{
+    background-color: rgb(126, 22, 246);
+   }
+
+}
+#admin{
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+   top: 450px;
+   left: 785px;
+   width: 100px;
+   padding: 10px;
+   background-color: rgb(81, 117, 201);
+  box-shadow: 3px 2px 2px blue;
+   &:hover{
+    background-color: rgb(126, 22, 246);
+   }
+}
+a{
+    color: white;
+    text-decoration: none;
+}

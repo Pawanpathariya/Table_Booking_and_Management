@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(background.jpg) no-repeat;
+}
+
+#custo{
+    border-radius: 20px;
+    text-align: end;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 500px;
+    background: orchid;
+    padding-right: 40px;
+    
+    h1{
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    p{
+        color: white;
+        margin: 20px;
+        font-size: 20px;
+        input{
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+    }
+
+    button{
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        margin-right: 30%;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: none;
+
+        &:hover{
+            background-color: rgb(205, 205, 235);
+        }
+    }
+}

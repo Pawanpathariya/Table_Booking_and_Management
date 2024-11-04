@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+#Italic{
+        gap: 20px;
+        display: none;
+        grid-template-columns: 1fr 1fr ;
+        margin-left: 20%;
+        margin-top: 100px;
+}
+#Indian{
+    display: none;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+#Mexican{
+    display: none;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 20%;
+    margin-top: 100px; 
+}
+#Japanese{
+    display: none;
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+#tot{
+    display: none;
+    margin-top: 50px;
+    margin-left: 50%;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(37, 171, 151);
+   margin-bottom: 200px;
+}
+#item{
+    position: relative;
+    height: 100%;
+text-align: center;
+margin-top: 20px;
+
+
+h1{
+    margin: 20px;
+    color: brown;
+}
+p{
+   position: relative;
+   left: 45%;
+   font-size: 30px;
+    width: 200px;
+    margin: 20px;
+
+    &:hover{
+        background-color: aqua;
+    }
+}
+}
+
+#show1{
+    text-align: center;
+    background-color: aqua;
+    padding: 100px 40px;
+    color: rgb(226, 23, 23);
+    font-size: 40px;
+    
+
+   h3{
+    margin-top: 50px;
+    color: rgb(184, 27, 95);
+    font-size: 40px;
+   }
+}
+#btn2{
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 50%;
+}
+#ex{
+    margin-top: 20px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 50%;
+    border: 2px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
