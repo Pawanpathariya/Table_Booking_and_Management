@@ -19,6 +19,7 @@ async function display(){
             <th> Contact </th>
             <th> Date of booking</th>
             <th> Time </th>
+            <th> total </th>
             <th id="last"> Bill Status</th>
            
             `
@@ -33,6 +34,7 @@ async function display(){
                 <td > ${key.Contact} </td>
                 <td > ${key.Date} </td>
                 <td > ${key.Time} </td>
+                <td > ${key.Total} </td>
                 <td id="last"> Paid </td>
             
                 </tr> `

@@ -1,5 +1,5 @@
 var total=0;
-
+var newtotal
 //italic 
 function itali(){
     document.getElementById("Italic").style.display="grid";   
@@ -60,6 +60,7 @@ function totalpay(){
  else{
     alert("please pay amount ");
  }
+ localStorage.setItem("total",total);
 }
 
 let Name=localStorage.getItem("Name");
@@ -68,7 +69,7 @@ let Person=localStorage.getItem("Person");
 let Date=localStorage.getItem("Date");
 let Time=localStorage.getItem("Time");
 let seat=Math.trunc(Math.random()*100);
-
+let totaln=localStorage.getItem("total");
 async function rece(){
 
     let api="http://localhost:3000/students";
@@ -82,7 +83,7 @@ async function rece(){
           "Contact":Contact,
           "Time":Time,
           "Date":Date,
-          "Total":total  
+          "Total":totaln  
          }),
          headers: {
             "Content-Type": "application/json",
@@ -100,6 +101,7 @@ function sho(){
     Date : ${Date} <br>
     Time : ${Time}<br>
     Seat Number:${seat}<br>
+     Total Bill :${totaln}<br>
     Payment Status : Paid
     </h3>
     `
